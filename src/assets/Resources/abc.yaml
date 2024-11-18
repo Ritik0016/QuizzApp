@@ -1,0 +1,42 @@
+1) set lock ko band kr dunga.
+
+2) Ab 3 options bante hai, pehla ye ke user 100 options pr v click kr sakta hai, doosra ye ke user given 15 questions k liye bas 15 options he select kree aur teesra ye ki user 15 se v kam options select kree.
+
+3) Jitne v options select ho rhe h mai unhe ek JSON data me store kar rha hu. 
+['Question number' : Selected Option]
+
+4) But ab problem ye hai ke same ques no par multiple options present ho sakte hai &array ki length faaltu me extent karegi, which is a problem.
+                for eg: [1:'c']
+                        [1:'a']
+                        [1:'b']
+                        [1:'d']
+
+
+5) Now the solution to this problem is ki jab user multiple options pr click kre toh unn multiple options ko alag alag index pr store krne ki jagah mai ek he phle he index ko update krta rhu for that particular Question.
+
+
+0: {1: "1"}
+1: {2: 'void func(*int ptr);'}
+2: {3: '||'}
+3: {5: 'c'}
+4: {6: 'It will return the address 0x0'}
+5: {6: 'It will cause a segmentation fault'}
+6: {6: 'It will give 0 as the result'}
+7: {7: '5 4 3 2 1 5 4 3 2 1'}
+8: {7: '5 4 3 2 1 2 3 4 5'}
+9: {8: '15'}
+10: {10: 'Undefined behavior'}
+11: {12: 'Both A and C'}
+12: {12: 'ptr == 0'}
+13: {12: '*ptr == NULL'}
+14: {12: 'ptr == NULL'}
+15: {12: 'ptr == NULL'}
+16: {13: 'All of the above'}
+17: {13: 'All of the above'}
+18: {14: '4'}
+19: {15: 'Infinite loop'}
+20: {15: '2'}
+21: {9: '3'}
+22: {9: '2'}
+23: {5: 'b'}
+length: 24

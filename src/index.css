@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.green{
+    background-color: green;
+    border: 2px solid rgb(61, 246, 61);
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 1rem;
+    width: 80%;
+    padding: 0.625rem;
+}
+.blue{
+    background-color: #082f49;
+    border: 2px solid #075985;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 1rem;
+    width: 80%;
+    padding: 0.625rem;
+}
